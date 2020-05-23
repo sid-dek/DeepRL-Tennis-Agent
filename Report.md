@@ -17,11 +17,19 @@ The following is the plot of scores achieved:
 * Buffer size = 100000
 * Batch size = 256
 * Gamma = 0.9
+* TAU = 0.001
 * Learning Rate Actor = 0.001
 * Learning Rate Critic = 0.001
+* Weight Decay = 0.000001
+* Sigma = 0.1
+
 
 ## Next Steps:
 * Tweak the Hyperparameters
 * Compare other MADDPG variants like shared actors and shared critics
 * Try the approach in the Socer environment
 * Research stabilization techniques
+* Use parameter space noise rather than noise on action. https://vimeo.com/252185862
+* Different replay buffer for actor/critic
+* Try adding dropouts in critic network
+* We can use prioritised experience buffer. https://github.com/Damcy/prioritized-experience-replay
