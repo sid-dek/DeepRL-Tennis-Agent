@@ -16,5 +16,20 @@ The task is episodic, and in order to solve the environment, your agents must ge
 
 To start with the project, we have to download the Tennis environment for our OS from this [link](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet)
 
+## Dependencies
+To be able to run this code, you will need an environment with Python 3 and 
+the dependencies are listed in the `requirements.txt` file so that you can install them
+using the following command: 
+```
+pip install requirements.txt
+``` 
+
+Furthermore, you need to download the environment from one of the links below. You need only to select
+the environment that matches your operating system:
+- Linux : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
+- MAC OSX : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
+- Windows : [link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
+
+
 ## Train the agent:
 Run the Tennis.ipynb Notebook to train the agent.
